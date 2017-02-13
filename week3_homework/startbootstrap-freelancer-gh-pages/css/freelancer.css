@@ -42,9 +42,7 @@ hr.style13 {
 header {
   text-align: center;
   color: #333;
-  background-image: url("https://unsplash.com/search/digital?photo=wkO0q0UTqc8");
-  background-size: 100%;
-}
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);}
 header .container {
   padding-top: 100px;
   padding-bottom: 50px;
@@ -481,27 +479,4 @@ fieldset[disabled] .btn-success.active {
 }
 
 
-
-
-
-a {
-  display: inline-block;
-
-  padding: .75rem 0;
-  margin: 0;
-  text-decoration: none;
-  color: #333;
-}
-
-.two:hover ~ hr {
-  margin-left: 25%;
-}
-
-.three:hover ~ hr {
-  margin-left: 50%;
-}
-
-.four:hover ~ hr {
-  margin-left: 75%;
-}
 
