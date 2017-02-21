@@ -1,0 +1,64 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-family: "Helvetica Neue";
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #F5AB56;
+  color: #333;
+}
+
+
+#viewDetails{
+  background: #FFFFFF;
+  margin: 3px;
+  width: 80px;
+  height: 40px;
+  display: none;
+  float: left;
+  color: #000
+}
+
+.btn {
+  background-color: #F5AB56;
+  color: #4A4A4A;
+  border-width: 1px;
+}
+
+.navbar-brand {
+  padding-right: 15px;
+}
+
+#panel, #flip {
+  padding: 5px;
+  text-align: center;
+  background-color: white;
+  border: solid 1px #c3c3c3;
+}
+
+#panel {
+  padding: 50px;
+  display: none;
+}
