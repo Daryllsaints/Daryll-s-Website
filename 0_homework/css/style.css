@@ -1,0 +1,140 @@
+body {
+    font-family: "Montserrat";
+    padding-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+p {
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1 {
+    font-family: "Bebas Neue";
+    color: black;
+}
+
+h2 {
+    font-family: "Bebas Neue";
+    font-size: 40px;
+}
+
+h3 {
+    font-family: "Bebas Neue";
+}
+
+h4 {
+    font-family: "Montserrat";
+}
+
+.navbar {
+    text-align: center;
+    opacity:
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.navbar.scrolled {
+    background: rgba(0, 0, 0, 0.78);
+}
+
+footer {
+    height: 100px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */
+    border: 1px solid #ccc; /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+    color: #020202;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    box-sizing: border-box;
+    background-color: white;
+
+}
+
+input[type=submit]:hover {
+    background-color: #043ece;
+    color: white;
+
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.image {
+    position: relative;
+    width: 100%; /* for IE 6 */
+}
+
+h2 span {
+    text-align: center;
+    font-size: 60px;
+    color: white;
+    letter-spacing: -1px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    width: 100%;
+}
+
+h2 span.spacer {
+    padding:0 5px;
+}
+
+#header_bar {
+    height: 1x;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    z-index: 10020;
+}
+
+.link-1 {
+    transition: 0.3s ease;
+    color: black;
+    font-size: 20px;
+    text-decoration: none;
+    border-bottom: 4px solid #043ece;
+    padding: 20px 0;
+    margin: 0 20px;
+    text-align: center;
+}
+.link-1:hover {
+    color: black;
+    background-color: #043ece;
+    border-color: #043ece
+}
+
+.thumb {
+    margin-bottom: 30px;
+    max-height: 300px;
+    max-width: 400px;
+}
+
+.thumbnail {
+    max-width: 400px;
+    max-height: 290px;
+}
