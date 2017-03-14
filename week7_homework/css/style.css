@@ -1,0 +1,36 @@
+body {
+  background: #EEE;
+  font-family: sans-serif;
+  font-size: 20px;
+  margin: 3em;
+  padding: 0;
+}
+
+.list-group-item {
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.ai {
+    text-align: right;
+}
+
+.ai:after {
+    font-family: FontAwesome;
+    content: "\f17b";
+    margin-left: 10px;
+    font-size: 40px;
+    color: #428bca;
+}
+
+.human {
+    text-align: left;
+}
+
+.human:before {
+    font-family: FontAwesome;
+    content: "\F007";
+    margin-right: 10px;
+    font-size: 40px;
+    color: #5cb85c;
+}
