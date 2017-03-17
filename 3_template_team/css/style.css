@@ -1,0 +1,60 @@
+body {
+    padding: 50px;
+}
+
+.img-thumbnail {
+    height: 100px;
+}
+
+body {
+    padding: 50px;
+    font-family: Lato;
+}
+
+.img-thumbnail {
+    height: 150px;
+    border: none;
+    box-shadow: none;
+    padding-right: 70px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.navbar {
+    background-color: white;
+    padding-right: 200px;
+}
+
+a, h2 {
+    color: #5BBEEE;
+}
+
+.row {
+    margin-left: 2px;
+}
+h4 {
+    color: #5BBEEE;
+}
+
+.btn {
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: #5BBEEE !important;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+.btn:hover {
+    background-color: #398dE2 !important;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px 5px 10px;
+}
+
+
+.list-group-item {
+    align-items: center;
+}
