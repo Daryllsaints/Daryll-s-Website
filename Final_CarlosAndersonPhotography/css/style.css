@@ -1,4 +1,13 @@
+hr {
+    height: 10px;
+    border: 0;
+    box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
 
+#headerImage {
+    width: 207px;
+    height: 120px;
+}
 
 .header {
     width:100%;
@@ -196,6 +205,7 @@ html {
 
 .field + .field {
     margin-top: 2em;
+
 }
 
 .field {
